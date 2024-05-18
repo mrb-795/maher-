@@ -1,0 +1,46 @@
+body{
+	border:2px solid;
+	background-color:lightblue;
+
+
+
+
+div{
+	h1{
+		border:2px solid;
+		text-align:center;
+	}
+	p{
+		border:2x solid;
+	}
+	img {
+  border: 5px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+     ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+}
